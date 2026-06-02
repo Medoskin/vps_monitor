@@ -5,7 +5,7 @@ import urllib.parse
 import json
 import ssl
 
-# Конфигурация из переменных окружения (секретов GitHub)
+# Конфигурация из переменных окружения (секретов GitHub) 
 SERVER_IP = os.environ["SERVER_IP"]
 SERVER_PORT = int(os.environ["SERVER_PORT"])
 BOT_TOKEN = os.environ["BOT_TOKEN"]
